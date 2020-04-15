@@ -4,11 +4,11 @@ import './App.scss';
 
 import Navigation from './components/Navigation';
 import HeaderJumbotron from './components/HeaderJumbotron';
-import MiddleJumbotron from './components/MiddleJumbotron';
+// import MiddleJumbotron from './components/MiddleJumbotron';
 // import PersonalProjectList from './components/PersonalProjectList'
-// import FamiliarWith from './components/FamiliarWith';
-// import LanguageSkill from './components/LanguageSkill';
-// import AlsoInterested from './components/AlsoInterested';
+import FamiliarWith from './components/FamiliarWith';
+import LanguageSkill from './components/LanguageSkill';
+import AlsoInterested from './components/AlsoInterested';
 // import Footer from './components/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 
@@ -18,15 +18,19 @@ function App() {
 			<header className="App-header">
 				<Navigation />
 				<HeaderJumbotron />
-				<MiddleJumbotron />
 			</header>
 			<main>
 				<Container fluid>
-					<Row>
-						<Col xl={8} className="bg-info">
-							a <br /> c
+					<Row xs={1} s={1} m={3} lg={3} xl={3}>
+						<Col className="bg-warning">
+							<FamiliarWith />
 						</Col>
-						<Col className="bg-warning">b</Col>
+						<Col className="bg-success">
+							<AlsoInterested />
+						</Col>
+						<Col className="bg-info">
+							<LanguageSkill />
+						</Col>
 					</Row>
 				</Container>
 			</main>

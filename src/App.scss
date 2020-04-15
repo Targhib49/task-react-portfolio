@@ -53,3 +53,17 @@ body {
 	text-transform: uppercase;
 	font-weight: bold;
 }
+
+.quotes {
+	background-color: rgb(4, 75, 4);
+	color: white;
+}
+
+.my-footer {
+	background-color: rgb(30, 210, 223);
+	color: rgb(37, 29, 29);
+	min-height: 100px;
+	.row {
+		height: 100%;
+	}
+}

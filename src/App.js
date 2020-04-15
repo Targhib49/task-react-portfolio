@@ -4,12 +4,12 @@ import './App.scss';
 
 import Navigation from './components/Navigation';
 import HeaderJumbotron from './components/HeaderJumbotron';
-// import MiddleJumbotron from './components/MiddleJumbotron';
-// import PersonalProjectList from './components/PersonalProjectList'
 import FamiliarWith from './components/FamiliarWith';
 import LanguageSkill from './components/LanguageSkill';
 import AlsoInterested from './components/AlsoInterested';
-// import Footer from './components/Footer';
+import PersonalProjectList from './components/PersonalProjectList';
+import MiddleJumbotron from './components/MiddleJumbotron';
+import Footer from './components/Footer';
 import { Container, Row, Col } from 'react-bootstrap';
 
 function App() {
@@ -32,8 +32,15 @@ function App() {
 							<LanguageSkill />
 						</Col>
 					</Row>
+					<Row>
+						<PersonalProjectList />
+					</Row>
+					<Row>
+						<MiddleJumbotron />
+					</Row>
 				</Container>
 			</main>
+			<Footer />
 		</div>
 	);
 }

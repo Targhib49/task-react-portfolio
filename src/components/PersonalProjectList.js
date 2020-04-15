@@ -56,7 +56,7 @@ export default class PersonalProjectList extends Component {
 						<Card style={{ width: '18rem' }}>
 							<Card.Img variant="top" src="holder.js/100px180" />
 							<Card.Body>
-								<Card.Title>Rate Your Movie (On progress)</Card.Title>
+								<Card.Title className="text-center">Rate Your Movie (On progress)</Card.Title>
 								<Card.Text>
 									A simple web to rate and review your favorite movie and share it with other user.
 									You can also see score for your favorite movie

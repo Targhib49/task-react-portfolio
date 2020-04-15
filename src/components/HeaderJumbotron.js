@@ -23,7 +23,7 @@ export default class HeaderJumbotron extends Component {
 								</p>
 							</Col>
 						</Row>
-						<Row xs={5} md={6} md={6} lg={6} xl={6} className="mt-3 justify-content-center">
+						<Row xs={5} md={6} lg={6} xl={6} className="mt-3 justify-content-center">
 							<Col className="text-center">
 								<FontAwesomeIcon className="socials" icon={faGithub} />
 								<p className="socials">Github</p>
